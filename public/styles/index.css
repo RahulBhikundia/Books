@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "Valkyrie C4";
+    src: url("https://db.onlinewebfonts.com/t/5ef1d874f7e6c2b682f531ccf6479eeb.woff")format("woff"),
+}
+
+body {
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 5px;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #fff;
+  color: #000;
+}
+
+#masthead {
+  color: #000;
+  font-family: valkyrie_c4;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1em;
+  font-size: 3em;
+}
+#masthead a {
+  text-decoration: none;
+  word-wrap: break-word;
+  color: #000;
+}
+
+main {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+}
+
+main header {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+}
+
+main header h1 {
+  color: #000;
+  font-family: valkyrie_c4;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1em;
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: #20b;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+#allbooks > div > figure {
+  margin-left: 0;
+}
+
+#allbooks > div > figure > a > img {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  line-height: 30px;
+  word-wrap: break-word;
+  color: #606;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  float: left;
+  margin-right: 2em;
+}
+
+#allbooks > div > small {
+  line-height: 30px;
+  font-family: valkyrie_c4;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.8em;
+  color: #666;
+}
+
+#book > header > figure {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+  margin-left: 0;
+  margin-top: 0;
+  float: left;
+}
+
+#book > header > h1 {
+  color: #000;
+  font-family: valkyrie_c4;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1em;
+  font-size: 2em;
+}
+
+#book > header > small {
+  line-height: 30px;
+  font-family: valkyrie_c4;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.8em;
+  color: #666;
+}
+
+#book > header > p {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+}
+
+#book-note {
+    color: #000;
+    font-family: valkyrie_c4;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1em;
+    margin-top: 2em;
+}
+
+#booknotes {
+    font-family: Georgia,serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+}
+
+pre  {
+    white-space: pre-wrap;
+}

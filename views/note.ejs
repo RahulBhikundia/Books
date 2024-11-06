@@ -1,0 +1,18 @@
+<%- include("partials/header.ejs") %>
+<main id="book">
+    <header>
+    <figure><a href="<%= book.amazon %>"><img src="https://covers.openlibrary.org/b/isbn/<%= book.isbn %>-M.jpg" style="width: 125px; height: 187px;" alt="<%= book.title %> - by <%= book.author %>"></a></figure>
+    <h1><%= book.title %> - by <%= book.author %></h1>
+    <small>
+    ISBN: <%= book.isbn %><br>
+    Date read: <%= book.date.toISOString().split('T')[0] %><br>
+    How strongly I recommend it: <strong><%= book.score %></strong>/10<br>
+    </small>
+    <p><strong>Go to the <a href=<%= book.amazon %>>Amazon page</a></strong> for details and reviews.</p>
+    </header>
+    
+    <p id="booksummary"><%= book.summary %></p>
+    <h2 id="book-note">MY NOTES</h2>
+    <pre id="booknotes"><%= book.notes %></pre>
+</main>
+<%- include("partials/footer.ejs") %>

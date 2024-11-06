@@ -23,7 +23,7 @@ This project is a web application designed to manage and organize a collection o
 
 1. **Start the Server:**
    ```bash
-   npm start
+   nodemon start
    ```
 2. **Access the Application:** Open your web browser and navigate to `http://localhost:3000`.
 

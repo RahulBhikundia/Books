@@ -29,4 +29,4 @@ This project is a web application designed to manage and organize a collection o
 
 ## Contact Information
 
-For any inquiries or feedback, please contact [Your Email Address].
+For any inquiries or feedback, please contact rahulkumar6222@gmail.com 
